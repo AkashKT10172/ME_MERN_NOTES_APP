@@ -1,0 +1,57 @@
+/* Default light theme styles */
+.app-container.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark theme styles */
+.app-container.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* For buttons, links, and cards in dark mode */
+.app-container.dark button,
+.app-container.dark .btn {
+  background-color: #333;
+  color: white;
+}
+
+/* Adjust other components as needed */
+.app-container.light .btn {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+.app-container .card {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.app-container.dark .card {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+.app-container.light .card {
+  background-color: #ffffff;
+  color: black;
+}
+input.bg-dark {
+  color: white;
+}
+textarea.bg-dark {
+  color: white;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #ccc; /* or white if you prefer */
+  opacity: 1; /* Firefox requires this */
+}
+
+input.bg-dark::placeholder,
+textarea.bg-dark::placeholder {
+  color: #aaa; /* light grey for dark mode */
+}
+
+/* You can add more styles for other UI components like inputs, tables, etc. */
